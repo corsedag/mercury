@@ -13,7 +13,7 @@ type ImagePropsWithOptionalAlt = Omit<ImageProps, 'alt'> & { alt?: string }
 
 export const img = function Img(props: ImagePropsWithOptionalAlt) {
   return (
-    <div className="relative overflow-hidden rounded-2xl lg:mt-16">
+    <div className="relative overflow-hidden rounded-2xl">
       <Image
         alt=""
         sizes="(min-width: 1280px) 36rem, (min-width: 1024px) 45vw, (min-width: 640px) 32rem, 95vw"
