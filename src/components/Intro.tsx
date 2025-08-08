@@ -59,7 +59,7 @@ export function Intro() {
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap text-sm/6 text-gray-400 justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        Launching September 2025. Early sign ups get 50% off for 3 months! 🚀
+        Launching August 2025. $50/month. Join our wait list and get 50% off for 12 months! 🚀
       </div>
     </>
   )
