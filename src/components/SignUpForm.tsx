@@ -41,7 +41,7 @@ export function SignUpForm() {
           onChange={(e) => setEmail(e.target.value)}
         />
         <Button type="submit" arrow disabled={status === 'loading'}>
-          {status === 'loading' ? 'Joining...' : 'Join Waitlist'}
+          {status === 'loading' ? 'Joining...' : 'Join Priority List'}
         </Button>
         <div className="absolute inset-0 -z-10 rounded-lg transition peer-focus:ring-4 peer-focus:ring-sky-300/15" />
         <div className="absolute inset-0 -z-10 rounded-lg bg-white/2.5 ring-1 ring-white/15 transition peer-focus:ring-sky-300" />
@@ -49,7 +49,7 @@ export function SignUpForm() {
       <div>
         {status === 'success' && (
           <p className="mt-2 text-green-600">
-            Thank you for joining the waitlist!
+            Thank you for joining the priority list!
           </p>
         )}
         {status === 'error' && (
